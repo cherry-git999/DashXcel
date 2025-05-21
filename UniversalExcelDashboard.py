@@ -84,7 +84,7 @@ if file:
         # Data download button
         st.download_button("Download Processed Data", data=df.to_csv(index=False).encode('utf-8'),
                            file_name="Processed_Data.csv", mime="text/csv")
-        st.markdown("### Note: This is a basic version of the dashboard. More features will be added soon.")
+        st.markdown("### Note: This is a basic desktop version of the application. More features will be added soon.")
         st.markdown("### For any issues, please contact: [A SRI SAI CHARAN](mailto:cherry2544t@gmail.com )")
 
 else:
